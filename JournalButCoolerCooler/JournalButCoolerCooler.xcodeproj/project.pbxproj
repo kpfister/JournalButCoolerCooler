@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6267320422DF8E610031C145 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267320322DF8E610031C145 /* Entry.swift */; };
 		FBD1394722DF8C2800A58EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1394622DF8C2800A58EFC /* AppDelegate.swift */; };
 		FBD1394922DF8C2800A58EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1394822DF8C2800A58EFC /* ViewController.swift */; };
 		FBD1394C22DF8C2800A58EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD1394A22DF8C2800A58EFC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6267320322DF8E610031C145 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		FBD1394322DF8C2800A58EFC /* JournalButCoolerCooler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalButCoolerCooler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD1394622DF8C2800A58EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD1394822DF8C2800A58EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6267320522DF8E650031C145 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6267320322DF8E610031C145 /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBD1393A22DF8C2800A58EFC = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				FBD1394D22DF8C2900A58EFC /* Assets.xcassets */,
 				FBD1394F22DF8C2900A58EFC /* LaunchScreen.storyboard */,
 				FBD1395222DF8C2900A58EFC /* Info.plist */,
+				6267320522DF8E650031C145 /* Model */,
 				FBD1395A22DF8E7C00A58EFC /* Model Controller */,
 			);
 			path = JournalButCoolerCooler;
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6267320422DF8E610031C145 /* Entry.swift in Sources */,
 				FBD1395922DF8E7600A58EFC /* EntryController.swift in Sources */,
 				FBD1394922DF8C2800A58EFC /* ViewController.swift in Sources */,
 				FBD1394722DF8C2800A58EFC /* AppDelegate.swift in Sources */,
